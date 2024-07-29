@@ -1,0 +1,47 @@
+.Menu{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.Menu h1{
+    color:#262626 ;
+   font-weight: 500;
+   margin-left: 20px;
+}
+
+.MenuText{
+    max-width: 10%;
+    color: #262626;
+    margin-left: 20px;
+}
+.menulist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0px;
+    overflow-x: scroll;
+}
+.menulist::-webkit-scrollbar{
+    display: none; */
+    
+}
+
+.menulistitem img{
+    width: 8vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.menulistitem p{
+    margin-left: 20px;
+margin-top: 10px;
+color: #747474;
+font-size: max(1.4vw,16px);
+cursor: pointer;
+}
+.Menu hr{
+    margin: 10px 0px;
+
+}
